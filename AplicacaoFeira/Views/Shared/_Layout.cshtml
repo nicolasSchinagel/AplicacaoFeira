@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AplicacaoFeira</title>
+    <script type="importmap"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="useful-header">
+                <ol class="first-part">
+                    <a class="cursoring href-1" asp-controller="Home" asp-action="Cultura">cultura</a>
+                    <a class="cursoring href-1" asp-controller="Home" asp-action="Index">história</a>
+                    <a class="cursoring href-1" asp-controller="Home" asp-action="Culinaria">culinária</a>
+                </ol>
+                <div class="central-part">
+                    <img src="~/img/mexico-logo.webp" class="header-logo">
+                    <h1 class="logo-text"><span class="logo-green">MÉ</span><span class="logo-white">XI</span><span class="logo-red">CO</span></h1>
+                </div>
+                <ol class="second-part">
+                    <div class="sec-one">
+                        <a class="cursoring href-1" asp-controller="Home" asp-action="Geografia">geografia</a>
+                        <a class="cursoring href-1" asp-controller="Home" asp-action="Economia">economia</a>
+                        <a class="cursoring href-1" asp-controller="Home" asp-action="Celebridades">celebridades</a>
+                    </div>
+                    <div class="login-part">
+                        <a class="login cursoring" asp-controller="Cliente" asp-action="Login">Login</a>
+                    </div>
+                </ol>
+            </section>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <section class="upfooter">
+            <div class="left-footer">
+                <div class="line-green"></div>
+                <div class="line-white"></div>
+                <div class="line-red"></div>
+            </div>
+            <div class="central-part">
+                <img src="~/img/mexico-logo.webp" class="header-logo-2">
+                <h1 class="logo-text-2"><span class="logo-green">MÉ</span><span class="logo-white">XI</span><span class="logo-red">CO</span></h1>
+            </div>
+            <div class="right-footer">
+                <div class="line-green"></div>
+                <div class="line-white"></div>
+                <div class="line-red"></div>
+            </div>
+        </section>
+        <section class="midfooter">
+            <h2 class="logo-white big-1">Site parceiro da agência de turismo do México</h2>
+            <h3 class="logo-green medium-1">Contato</h3>
+            <h3 class="logo-white medium-1">Nossa Equipe</h3>
+            <h3 class="logo-red medium-1">Agradecimentos a todos os envolvidos</h3>
+        </section>
+        <section class="downfooter">
+            <h3 class="logo-white">Todos os direitos reservados - 2026</h3>
+        </section>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded",()=>{
+
+        const track=document.querySelector(".track");
+
+        let slides=[...document.querySelectorAll(".outside")];
+
+        const next=document.querySelector(".banner-next");
+        const prev=document.querySelector(".banner-prev");
+
+        let animando=false;
+
+        next.addEventListener("click",()=>{
+
+        if(animando) return;
+
+        animando=true;
+
+        track.style.transform="translateX(-100%)";
+
+        track.addEventListener("transitionend",function fim(){
+
+        track.appendChild(track.firstElementChild);
+
+        track.style.transition="none";
+        track.style.transform="translateX(0)";
+
+        track.offsetHeight;
+
+        track.style.transition="transform .6s ease-in-out";
+
+        animando=false;
+
+        track.removeEventListener("transitionend",fim);
+
+        });
+
+        });
+
+        prev.addEventListener("click",()=>{
+
+        if(animando) return;
+
+        animando=true;
+
+        track.style.transition="none";
+
+        track.prepend(track.lastElementChild);
+
+        track.style.transform="translateX(-100%)";
+
+        track.offsetHeight;
+
+        track.style.transition="transform .6s ease-in-out";
+
+        requestAnimationFrame(()=>{
+
+        track.style.transform="translateX(0)";
+
+        });
+
+        track.addEventListener("transitionend",function fim(){
+
+        animando=false;
+
+        track.removeEventListener("transitionend",fim);
+
+        });
+
+        });
+
+        });
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

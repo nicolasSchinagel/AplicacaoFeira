@@ -1,0 +1,1866 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 1000;
+    top: -120px;
+}
+
+nav {
+    width: 97%;
+    height: 240px;
+    background: rgba(0,0,0,.7);
+    border-radius: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.useful-header {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    gap: 20px;
+    font-family: 'arial', sans-serif;
+}
+
+.first-part,
+.second-part {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.href-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.href-1:hover {
+        text-decoration: none;
+}
+
+.first-part {
+    gap: 35px;
+}
+
+.second-part {
+    gap: 55px;
+}
+
+.sec-one {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.login-part {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    color: red;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+    .login:hover {
+        text-decoration: none;
+    }
+
+.cursoring {
+    cursor: pointer;
+    transition: .2s;
+}
+
+    .cursoring:hover {
+        color: rgb(244,197,10);
+    }
+
+.central-part {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 6px;
+}
+
+.header-logo {
+    height: 70px;
+    width: auto;
+}
+
+.logo-text {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.logo-green {
+    color: rgb(10,142,10);
+}
+
+.logo-white {
+    color: #fff;
+}
+
+.logo-red {
+    color: red;
+}
+
+.logo-blue {
+    color: blue;
+}
+
+.logo-yellow {
+    color: goldenrod;
+}
+.logo-yellow2{
+    color: yellow;
+}
+
+.lista-outsides {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform .6s ease-in-out;
+}
+
+.outside {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-feira {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.arrows {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    z-index: 100;
+    flex-direction: row-reverse;
+    pointer-events: none;
+}
+
+.banner-next,
+.banner-prev {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+
+
+.banner-button1 {
+    position: absolute;
+    left: 9%;
+    top: 63%;
+    width: 235px;
+    height: 52px;
+    padding: 18px;
+    border-radius: 30px;
+    background: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.banner-button2 {
+    position: absolute;
+    left: 9%;
+    top: 75%;
+    width: 235px;
+    height: 52px;
+    padding: 18px;
+    border-radius: 30px;
+    background: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.logo-banner-button {
+    width: 34px;
+}
+
+.text-banner-button {
+    font-family: 'Arial',sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(22,255,22);
+}
+.text-banner-button2 {
+    font-family: 'Arial',sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(255,255,0);
+}
+
+
+
+.camp-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+.image-1 {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content-1 {
+    width: 45%;
+    height: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-intro-1 {
+    color: red;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+}
+
+.mexico-mini {
+    height: 50px;
+    width: auto;
+    object-fit: cover;
+}
+
+.title-content-1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    padding-right: 50px;
+}
+
+.subtitle-content-1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    color: gray;
+}
+
+.text-content-1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 28px;
+}
+
+.division {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.camp-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mexico-map-1 {
+    width: 38%;
+    height: 48%;
+    object-fit: cover;
+}
+
+.content-2 {
+    width: 58%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.title-content-2 {
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.subtitle-content-2 {
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: gray;
+}
+
+.atributes-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 20px;
+}
+
+.atribute {
+    font-weight: normal;
+}
+
+.atribute-title {
+    font-weight: bolder;
+}
+
+.camp-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.image-2 {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content-3 {
+    width: 58%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.image-3 {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.atributes-2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.camp-4 {
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.division-y {
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+.content-4-1, .content-4-2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.content-4-1 {
+    width: 45%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-4-2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-4 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-5 {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.group-f1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.text-content-4-d {
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 30px;
+    width: 60%;
+}
+
+.group-fm1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+
+.content-5 {
+    width: 45%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.camp-5 {
+    width: 100%;
+    height: 1350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.image-8 {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.camp-6 {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.camp-7 {
+    width: 100%;
+    height: 1450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.image-9 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-10 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.title-content-3 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 25px;
+}
+
+.camp-8 {
+    width: 100%;
+    height: 1800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.image-11 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-12 {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-13 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.caixa-detalhe-1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.title-content-4 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 25px;
+}
+
+.caixa-detalhe-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camp-9 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+
+.camp-9-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.camp-9-2 {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.content-9 {
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.image-14 {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-15 {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-16 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+.camp-10 {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.image-17 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.subtitle-content-left {
+    width: 100%;
+    text-align: left;
+}
+
+.camp-11 {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+}
+
+.image-18, .image-19 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.camp-12 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+
+.image-20 {
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.mexico-medium {
+    height: 90%;
+    width: auto;
+    object-fit: cover;
+}
+
+.image-21 {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.upfooter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-footer, .right-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-footer {
+    align-items: start;
+}
+
+.right-footer {
+    align-items: end;
+}
+
+.line-green {
+    background-color: green;
+    width: 40vw;
+}
+
+.line-white {
+    background-color: white;
+    width: 25vw;
+}
+
+.line-red {
+    background-color: red;
+    width: 10vw;
+}
+
+.line-green, .line-white, .line-red {
+    height: 8px;
+}
+
+.header-logo-2 {
+    height: 150px;
+    width: auto;
+}
+
+.logo-text-2 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.midfooter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.big-1{
+    font-size:20px;
+    font-weight:bolder;
+}
+.medium-1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.downfooter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    padding: 20px;
+}
+
+/*Página do login: feito por Nícolas*/
+.shadow-header {
+    background-color: black;
+    height: 120px;
+    width: 100%;
+}
+
+.login-geral {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.image-login1 {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+}
+
+.formulario-login {
+    width: 55%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    gap: 40px;
+}
+
+.title-login {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 70%;
+    text-align: center;
+}
+
+.formulario-emSi {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-1-geral {
+    display: flex;
+    width: 65%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label-input-1 {
+    font-size: 25px;
+    color: #111111;
+}
+
+.input-box {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 15px;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 10px;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-input-1 {
+    height: 75%;
+    width: auto;
+}
+
+.input-login-1 {
+    height: 100%;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+    .input-login-1::placeholder {
+        font-size: 20px;
+        color: rgb(146, 146, 146);
+    }
+
+.conselho {
+    font-size: 16px;
+    font-weight: normal;
+    color: #111111;
+    width: 65%;
+    margin-top: 4px;
+    display: flex;
+    justify-content: end;
+}
+
+.opcao-cadastro {
+    color: rgb(78, 78, 255);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+    .opcao-cadastro:hover {
+        color: #0b0080;
+    }
+
+.button-login {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(0, 101, 0);
+    color: white;
+    font-weight: bolder;
+    border-radius: 15px;
+    width: 45%;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-button-login {
+    height: 80%;
+    width: auto;
+}
+
+.button-login:hover {
+    background-color: rgb(0, 44, 0);
+}
+
+/*FAZENDO CADASTRO AGORA - NÍCOLAS*/
+.fundo-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-registro {
+    width: 100%;
+    height: auto;
+}
+
+.blanket-registro {
+    background-color: rgba(255,255,255,0.9);
+    display: flex;
+    padding: 35px;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    z-index: 10;
+    border-radius: 50px;
+}
+
+.input-2-geral {
+    display: flex;
+    width: 55%;
+    height: auto;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.button-login-2 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(3, 3, 139);
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 35%;
+    height: 70px;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+    .button-login-2:hover {
+        background-color: rgb(0, 0, 64);
+    }
+
+.obrigatorio {
+    color: red;
+}
+
+.title-cadastro {
+    font-size: 50px;
+    color: rgb(3, 3, 139);
+    font-weight: bolder;
+}
+
+/*AGORA FAREI A TELA DA LISTA DE CULINÁRIAS , NÍCOLAS*/
+.parte-culinaria {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Knewave', sans-serif;
+    padding: 40px;
+}
+
+.intro-culinaria-title {
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.intro-culinaria-subtitle {
+    font-size: 30px;
+    width: 75%;
+    color: rgb(96, 96, 96);
+    text-align: center;
+}
+
+.lista-culinaria {
+    display: grid;
+    justify-content: flex-start;
+    width: 95%;
+    height: auto;
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-culinaria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 560px;
+    transition: 0.4s;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+    .card-culinaria:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+.card-culinaria-img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.title-culinaria-card {
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.description-culinaria-card, .endereco-culinaria-card {
+    text-align: justify;
+    color: rgb(92, 90, 90);
+    font-weight: normal;
+}
+
+.description-culinaria-card {
+    width: 90%;
+    height: 20%;
+    font-size: 14px;
+}
+
+.endereco-culinaria-card {
+    width: 80%;
+    height: 10%;
+    font-size: 16px;
+}
+
+.preco-culinaria-card {
+    width: 90%;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.precos-d {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5%;
+    font-size: 15px;
+}
+
+.preco-culinaria-card-d {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.preco-culinaria-off {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ECO VICTOR HUGO*/
+/* ===== Banner de topo ===== */
+:root {
+    --wiki-bg: #ffffff;
+    --wiki-chrome: #f6f6f6;
+    --wiki-border: #a2a9b1;
+    --wiki-link: #0645ad;
+    --wiki-text: #202122;
+    --wiki-gray: #54595d;
+    --infobox-bg: #f8f9fa;
+    --banner-green: #0a5c36;
+    --banner-red: #8b1e2b;
+    --banner-gold: #c9a24b;
+    --wiki-link-visited: #0b0080;
+}
+
+
+.top-banner {
+    background: linear-gradient(135deg, var(--banner-green) 0%, #073d25 55%, #052a19 100%);
+    color: #eef5ee;
+    padding: 28px 20px 34px;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .top-banner::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(45deg, rgba(201,162,75,0.08) 0 2px, transparent 2px 14px);
+        pointer-events: none;
+    }
+
+.banner-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-glyph {
+    width: 56px;
+    height: 56px;
+    flex: 0 0 auto;
+}
+
+.banner-titles h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    font-family: Georgia, serif;
+    font-weight: 700;
+}
+
+.banner-titles p {
+    margin: 4px 0 0;
+    font-size: 0.85rem;
+    color: var(--banner-gold);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.banner-search {
+    margin-left: auto;
+    display: flex;
+}
+
+    .banner-search input {
+        font-family: Arial, sans-serif;
+        font-size: 0.85rem;
+        padding: 7px 10px;
+        border: 1px solid var(--wiki-border);
+        border-radius: 2px 0 0 2px;
+        width: 180px;
+    }
+
+    .banner-search button {
+        font-family: Arial, sans-serif;
+        font-size: 0.85rem;
+        padding: 7px 12px;
+        border: 1px solid var(--wiki-border);
+        border-left: none;
+        background: var(--wiki-chrome);
+        border-radius: 0 2px 2px 0;
+        cursor: pointer;
+    }
+
+/* ===== Corpo estilo artigo ===== */
+.page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: var(--wiki-bg);
+    border-left: 1px solid var(--wiki-border);
+    border-right: 1px solid var(--wiki-border);
+    padding: 22px 26px 60px;
+}
+
+.article-title {
+    font-size: 2.1rem;
+    border-bottom: 3px solid var(--wiki-border);
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+
+.article-sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: var(--wiki-gray);
+    margin-bottom: 16px;
+}
+
+.lede {
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-bottom: 18px;
+}
+
+    .lede .drop {
+        float: left;
+        font-size: 3.2rem;
+        line-height: 0.8;
+        padding: 6px 8px 0 0;
+        font-family: Georgia, serif;
+        color: var(--banner-green);
+    }
+
+.toc {
+    background: var(--infobox-bg);
+    border: 1px solid var(--wiki-border);
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 0 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+}
+
+.toc-title {
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+}
+
+.toc ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.toc li {
+    margin-bottom: 3px;
+}
+
+.toc ol ol {
+    margin-top: 3px;
+}
+
+h2.section-title {
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--wiki-border);
+    padding-bottom: 4px;
+    margin-top: 38px;
+}
+
+h3.subsection-title {
+    font-size: 1.15rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.entry {
+    display: flex;
+    gap: 24px;
+    margin-top: 14px;
+    align-items: flex-start;
+}
+
+.entry-text {
+    flex: 1 1 auto;
+    line-height: 1.7;
+    font-size: 0.98rem;
+}
+
+    .entry-text p {
+        margin: 0 0 10px;
+    }
+
+    .entry-text ul {
+        margin: 0 0 12px;
+        padding-left: 22px;
+    }
+
+    .entry-text li {
+        margin-bottom: 6px;
+    }
+
+/* Infobox principal (estilo "país") */
+.infobox {
+    flex: 0 0 250px;
+    border: 1px solid var(--wiki-border);
+    background: var(--infobox-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+.infobox-header {
+    background: var(--banner-green);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 6px 8px;
+    font-family: Georgia, serif;
+}
+
+.infobox-sub {
+    text-align: center;
+    font-size: 0.72rem;
+    font-style: italic;
+    color: var(--wiki-gray);
+    padding: 5px 8px;
+    border-bottom: 1px solid var(--wiki-border);
+}
+
+.infobox-row {
+    display: flex;
+    border-bottom: 1px solid #eaecf0;
+    padding: 6px 8px;
+}
+
+    .infobox-row:last-child {
+        border-bottom: none;
+    }
+
+.infobox-label {
+    flex: 0 0 92px;
+    font-weight: bold;
+    color: var(--wiki-gray);
+}
+
+.infobox-value {
+    flex: 1;
+}
+
+/* Caixa lateral flutuante para estatísticas dentro das seções */
+.stat-float {
+    float: right;
+    width: 230px;
+    margin: 0 0 14px 18px;
+    border: 1px solid var(--wiki-border);
+    background: var(--infobox-bg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stat-float-header {
+    background: var(--banner-red);
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+.stat-float .stat-num {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: var(--banner-green);
+    padding: 8px 8px 0;
+    line-height: 1;
+}
+
+.stat-float .stat-label {
+    font-size: 0.72rem;
+    color: var(--wiki-gray);
+    padding: 2px 8px 10px;
+    border-bottom: 1px solid #eaecf0;
+}
+
+    .stat-float .stat-label:last-child {
+        border-bottom: none;
+    }
+
+/* Cartões de setores */
+.sector-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin: 16px 0 20px;
+    clear: both;
+}
+
+.sector-card {
+    border: 1px solid var(--wiki-border);
+    background: var(--infobox-bg);
+    padding: 12px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .sector-card h4 {
+        margin: 0 0 8px;
+        font-size: 0.95rem;
+        font-family: Georgia, serif;
+        border-bottom: 2px solid var(--banner-green);
+        padding-bottom: 4px;
+    }
+
+    .sector-card ul {
+        margin: 0;
+        padding-left: 18px;
+        font-size: 0.82rem;
+        line-height: 1.5;
+    }
+
+/* Gráfico simples SVG */
+.chart-box {
+    border: 1px solid var(--wiki-border);
+    background: var(--infobox-bg);
+    padding: 14px 18px 8px;
+    margin: 18px 0;
+    clear: both;
+}
+
+    .chart-box .chart-title {
+        font-family: Arial, sans-serif;
+        font-size: 0.85rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .chart-box .chart-source {
+        font-family: Arial, sans-serif;
+        font-size: 0.7rem;
+        color: var(--wiki-gray);
+        margin-top: 6px;
+    }
+
+table.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    clear: both;
+}
+
+    table.data-table th, table.data-table td {
+        border: 1px solid var(--wiki-border);
+        padding: 6px 10px;
+        text-align: left;
+    }
+
+    table.data-table th {
+        background: var(--infobox-bg);
+    }
+
+    table.data-table tr:nth-child(even) td {
+        background: #fbfbfb;
+    }
+
+.quote-box {
+    border-left: 4px solid var(--banner-green);
+    background: var(--infobox-bg);
+    padding: 10px 16px;
+    margin: 16px 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #333;
+    clear: both;
+}
+
+footer.wiki-footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px 26px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: var(--wiki-gray);
+    border-top: 1px solid var(--wiki-border);
+    background: var(--wiki-bg);
+    border-left: 1px solid var(--wiki-border);
+    border-right: 1px solid var(--wiki-border);
+}
+
+@media (max-width:680px) {
+    .entry {
+        flex-direction: column;
+    }
+
+    .infobox {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .stat-float {
+        float: none;
+        width: 100%;
+        margin: 0 0 14px;
+    }
+
+    .sector-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-search {
+        display: none;
+    }
+
+    .banner-titles h1 {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CELEBRIDADES VICTOR HUGO*/
+
+/* ===== Banner de topo (identidade própria, não o logo da Wikipedia) ===== */
+.top-banner {
+    background: linear-gradient(135deg, var(--banner-red) 0%, #6e1622 55%, #4a0e17 100%);
+    color: #f5ede0;
+    padding: 28px 20px 34px;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .top-banner::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: repeating-linear-gradient(45deg, rgba(201,162,75,0.08) 0 2px, transparent 2px 14px);
+        pointer-events: none;
+    }
+
+.banner-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-glyph {
+    width: 56px;
+    height: 56px;
+    flex: 0 0 auto;
+}
+
+.banner-titles h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    font-family: Georgia, serif;
+    font-weight: 700;
+}
+
+.banner-titles p {
+    margin: 4px 0 0;
+    font-size: 0.85rem;
+    color: var(--banner-gold);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.banner-search {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+    .banner-search input {
+        font-family: Arial, sans-serif;
+        font-size: 0.85rem;
+        padding: 7px 10px;
+        border: 1px solid var(--wiki-border);
+        border-radius: 2px 0 0 2px;
+        width: 180px;
+    }
+
+    .banner-search button {
+        font-family: Arial, sans-serif;
+        font-size: 0.85rem;
+        padding: 7px 12px;
+        border: 1px solid var(--wiki-border);
+        border-left: none;
+        background: var(--wiki-chrome);
+        border-radius: 0 2px 2px 0;
+        cursor: pointer;
+    }
+
+/* ===== Corpo estilo artigo ===== */
+.page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: var(--wiki-bg);
+    border-left: 1px solid var(--wiki-border);
+    border-right: 1px solid var(--wiki-border);
+    padding: 22px 26px 60px;
+}
+
+.article-title {
+    font-size: 2.1rem;
+    border-bottom: 3px solid var(--wiki-border);
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+
+.article-sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: var(--wiki-gray);
+    margin-bottom: 16px;
+}
+
+.lede {
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-bottom: 18px;
+}
+
+    .lede .drop {
+        float: left;
+        font-size: 3.2rem;
+        line-height: 0.8;
+        padding: 6px 8px 0 0;
+        font-family: Georgia, serif;
+        color: var(--banner-red);
+    }
+
+.toc {
+    background: var(--infobox-bg);
+    border: 1px solid var(--wiki-border);
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 0 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+}
+
+.toc-title {
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+}
+
+.toc ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.toc li {
+    margin-bottom: 3px;
+}
+
+h2.section-title {
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--wiki-border);
+    padding-bottom: 4px;
+    margin-top: 38px;
+}
+
+.entry {
+    display: flex;
+    gap: 24px;
+    margin-top: 14px;
+    align-items: flex-start;
+}
+
+.entry-text {
+    flex: 1 1 auto;
+    line-height: 1.65;
+    font-size: 0.98rem;
+}
+
+    .entry-text p {
+        margin: 0 0 10px;
+    }
+
+.infobox {
+    flex: 0 0 240px;
+    border: 1px solid var(--wiki-border);
+    background: var(--infobox-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+.infobox-header {
+    background: var(--banner-red);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 6px 8px;
+    font-family: Georgia, serif;
+}
+
+.infobox-photo {
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--wiki-border);
+}
+
+    .infobox-photo img {
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.infobox-caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.72rem;
+    color: var(--wiki-gray);
+    padding: 4px 8px 8px;
+    border-bottom: 1px solid var(--wiki-border);
+}
+
+.infobox-row {
+    display: flex;
+    border-bottom: 1px solid #eaecf0;
+    padding: 5px 8px;
+}
+
+    .infobox-row:last-child {
+        border-bottom: none;
+    }
+
+.infobox-label {
+    flex: 0 0 78px;
+    font-weight: bold;
+    color: var(--wiki-gray);
+}
+
+.infobox-value {
+    flex: 1;
+}
+
+.badge {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 0.68rem;
+    padding: 1px 6px;
+    border-radius: 8px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+    .badge.falecido {
+        background: #f4e3e3;
+        color: #7a2020;
+        border: 1px solid #d9b3b3;
+    }
+
+    .badge.ativo {
+        background: #e3f0e3;
+        color: #1f5c2e;
+        border: 1px solid #b3d9bb;
+    }
+
+footer.wiki-footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px 26px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: var(--wiki-gray);
+    border-top: 1px solid var(--wiki-border);
+    background: var(--wiki-bg);
+    border-left: 1px solid var(--wiki-border);
+    border-right: 1px solid var(--wiki-border);
+}
+
+@media (max-width:680px) {
+    .entry {
+        flex-direction: column;
+    }
+
+    .infobox {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .banner-search {
+        display: none;
+    }
+
+    .banner-titles h1 {
+        font-size: 1.4rem;
+    }
+}
