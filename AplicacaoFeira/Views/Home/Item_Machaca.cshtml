@@ -1,0 +1,59 @@
+﻿@inject AplicacaoFeira.Libraries.Login.LoginCliente _loginCliente
+<div class="shadow-header"></div>
+<div class="item-menu-geral">
+    <img src="~/img/culinaria-machaca.webp" class="imagem-menu-item">
+    <section class="menu-item-textos">
+        <h2 class="title-menu-item">Nome da Culinária: Machaca</h2>
+        <h3 class="description-menu-item">É um prato de carne-seca, onde seu preparo pode ser feito de várias maneiras diferentes, dependendo de cada estado do país. Seu preparo pode ser feito desde cebola e alho até tomate-cereja e pimenta mexicana. Eles também são muito utilizados para o recheio de burritos.</h3>
+        <div class="menu-item-promotions">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <div class="resgate-cupon-2">
+                    <img src="~/img/unlocked.png" class="resgate-cupon-icon">
+                    <div class="text-resgate-cupon">
+                        <h3 class="resgate-cupon-title">Resgatar cupom </h3>
+                        <div class="resgate-cupon-bloco-1">
+                            <h4 class="aviso-resgate-cupon">Somente para clientes</h4>
+                            <h4 class="preco-og-resgate-cupon">R$56,00</h4>
+                        </div>
+                        <div class="resgate-cupon-bloco-2">
+                            <h4 class="aviso-resgate-cupon">Preço desce para:</h4>
+                            <h3 class="preco-resgate-cupon">R$39,20</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <h2 class="preco-item-menu-geral">R$56,00</h2>
+            }
+            else
+            {
+                <div class="resgate-cupon">
+                <img src="~/img/locked.png" class="resgate-cupon-icon">
+                <div class="text-resgate-cupon">
+                    <h3 class="resgate-cupon-title">Resgatar cupom </h3>
+                    <div class="resgate-cupon-bloco-1">
+                        <h4 class="aviso-resgate-cupon">Somente para clientes</h4>
+                        <h4 class="preco-og-resgate-cupon">R$56,00</h4>
+                    </div>
+                    <div class="resgate-cupon-bloco-2">
+                        <h4 class="aviso-resgate-cupon">Preço desce para:</h4>
+                        <h3 class="preco-resgate-cupon">R$39,20</h3>
+                    </div>
+
+                </div>
+            </div>
+            <h2 class="preco-item-menu-geral">R$56,00</h2>
+            }
+        </div>
+    </section>
+</div>
+<div class="item-menu-caracters">
+    <div class="image-caracters">
+        <h4 class="parceria-menu-1">Parceria encontra em: Centro Histórico, CDMX</h4>
+        <h3 class="parceria-menu-2">Café El Popular</h3>
+    </div>
+    <div class="conselhos-item-menu">
+        <h4 class="conselho-2">Não consegue resgatar o cupom? <a class="opcao-cadastro" asp-action="Login" asp-controller="Cliente">faça login</a>.</h4>
+        <h4 class="ingredientes-itens">Ingredientes: Carne de sol bovina desfiada, cebola, alho, tomate e pimenta serrana. </h4>
+    </div>
+</div>

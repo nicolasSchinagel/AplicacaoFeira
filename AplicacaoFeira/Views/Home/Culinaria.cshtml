@@ -1,4 +1,4 @@
-﻿
+﻿@inject AplicacaoFeira.Libraries.Login.LoginCliente _loginCliente
 <div class="lista-outsides">
     <div class="track">
         <div class="outside active">
@@ -39,181 +39,357 @@
     <h1 class="intro-culinaria-title"><span class="logo-blue">CONHEÇA</span> A <span class="logo-yellow">CULINÁRIA</span> <span class="logo-green">MEXICANA</span></h1>
     <h3 class="intro-culinaria-subtitle">CONFIRA CADA REFEIÇÃO DISPONÍVEL COM OS MELHORES LUGARES PARA IR, <span class="logo-red">FAZER LOGIN LIBERA OFERTAS ESPECIAIS</span> VÁLIDAS PARA TODOS.</h3>
     <section class="lista-culinaria">
-        <a class="card-culinaria" href="">
+        <a class="card-culinaria" asp-controller="Home" asp-action="Item_Tortilha">
             <img src="~/img/culinaria-tortilha.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Tortilha</h3>
             <h4 class="description-culinaria-card">São pães feitos de milho, o ingrediente principal da cozinha mexicana. Elas são usadas para preparar burritos. </h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Chedraui (Cidade do México)</h4>
-            <section class="precos-d">
-                <h3 class="preco-culinaria-card-d">R$20,00</h3>
-                <h3 class="preco-culinaria-off">30% OFF</h3>
-            </section>
-            <h3 class="preco-culinaria-card">R$14,00</h3>
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d">R$20,00</h3>
+                    <h3 class="preco-culinaria-off">30% OFF</h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$14,00</h3>
+            }
+            else {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$20,00</h3>
+            }
         </a>
-        <a class="card-culinaria">
+        <a class="card-culinaria" asp-controller="Home" asp-action="Item_Machaca">
             <img src="~/img/culinaria-machaca.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Machaca</h3>
             <h4 class="description-culinaria-card">É um prato de carne-seca, onde seu preparo pode ser feito de várias maneiras diferentes, dependendo de cada estado do país. </h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Café El Popular (Centro Histórico, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$56,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$39,20</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                <h3 class="preco-culinaria-card-d"></h3>
+                <h3 class="preco-culinaria-off"></h3>
+            </section>
+            <h3 class="preco-culinaria-card">R$56,00</h3>
+            }
         </a>
-        <a class="card-culinaria">
+        <a class="card-culinaria" asp-controller="Home" asp-action="Item_Chilorio">
             <img src="~/img/culinaria-chilorio.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Chilorio</h3>
             <h4 class="description-culinaria-card">Carne de porco desfiada que pode levar uso de vários temperos saborosos e característicos, que variam muito de cada região do país, gerando versatilidade.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: El Bajío (Polanco, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$50,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
-            </section>
-            <h3 class="preco-culinaria-card">R$35,00</h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$35,00</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$50,00</h3>
+            }
         </a>
-        <a class="card-culinaria">
+        <a class="card-culinaria" asp-action="Item_Pozole" asp-controller="Home">
             <img src="~/img/culinaria-pozole.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Pozole</h3>
             <h4 class="description-culinaria-card">Algo parecido com uma receita de sopa, que tem como base o cacahuacintle ou cacahuazintle, um tipo de milho que possui grãos bem grandes e que são cozidos por várias horas. </h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: La Casa de Toño (Zona Rosa, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$42,20</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
-            </section>
-            <h3 class="preco-culinaria-card">R$29,40</h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$29,40</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$42,20</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-cochinita.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Cochinita Pibil</h3>
             <h4 class="description-culinaria-card">Desenvolvida pelos indígenas na região da província de Yucatán, a cochinita pibil segue uma técnica de preparo muito antiga, utilizando carne de porco preparada com molho de laranja azeda e cebola roxa.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Azul Histórico (Centro Histórico, CDMX)</h4>
+            @if (_loginCliente.GetCliente() != null)
+            {
             <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$75,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$53,50</h3>
+            }
+            else
+            {
+             <section class="precos-d">
+                <h3 class="preco-culinaria-card-d"></h3>
+                <h3 class="preco-culinaria-off"></h3>
+            </section>
+            <h3 class="preco-culinaria-card">R$75,00</h3>   
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-mole.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Mole Poblano</h3>
             <h4 class="description-culinaria-card">Se parecendo com um molho, o mole é um prato típico e muito saboroso e picante.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Hacienda de los Morales (Polanco, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$90,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$63,00</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                <h3 class="preco-culinaria-card-d"></h3>
+                <h3 class="preco-culinaria-off"></h3>
+            </section>
+            <h3 class="preco-culinaria-card">R$90,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-jericalla.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Jericalla</h3>
-            <h4 class="description-culinaria-card">Pudim de leite cremoso acompanhado com baunilha e canela</h4>
+            <h4 class="description-culinaria-card">Pudim de leite cremoso acompanhado com baunilha e canela.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Karlo's (Guadalajara)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$18,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$12,60</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$18,00</h3>
+            }
         </a>
-        <a class="card-culinaria">
+        <a class="card-culinaria" asp-controller="Home" asp-action="Item_Guacanachos">
             <img src="~/img/culinaria-guacanachos.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Guacamole com Nachos</h3>
             <h4 class="description-culinaria-card">Tortillas cortadas em triângulos com o famoso molho feito com abacate, tomate, cebola e outros ingredientes.</h4>
             <h4 class="endereco-culinaria-card">Porfirio's Masaryk (Polanco, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$60,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$42,00</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$60,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-chiles.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Chiles en nogada</h3>
             <h4 class="description-culinaria-card">Ela é composta por pimentões pablanos recheados com uma mistura de carne moída com outros condimentos, como frutas e especiarias.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Hostería de Santo Domingo (CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$110,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$77,00</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$110,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-tacos.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Tacos</h3>
             <h4 class="description-culinaria-card">Os tacos são feitos de Tortillas, geralmente com a massa mais dura, para ter uma crocância maior. Eles são recheados com Machacha e Chilorio, outras duas comidas típicas do México.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Taquería El Caifán (CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$12,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$8,40</h3>
+            }
+            else{
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$12,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-enchiladas.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Enchiladas</h3>
             <h4 class="description-culinaria-card">As Enchiladas são tortilhas de milho enroladas e recheadas com uma variedade de ingredientes e cobertas por um molho de pimenta e queijo derretido.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Sanborns (Paseo de la Reforma, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$52,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
+
             <h3 class="preco-culinaria-card">R$36,40</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+
+                <h3 class="preco-culinaria-card">R$52,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-margarita.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Margarita</h3>
             <h4 class="description-culinaria-card">Margarita é um coquetel feito de tequila, licor de laranja, suco de limão fresco e uma borda de sal na taça.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Limantour (Roma Norte, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$45,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$31,50</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$45,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-tamales.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Tamales</h3>
             <h4 class="description-culinaria-card">São bolinhos de massa de milho que podem ser recheados com vários ingredientes, como carne de porco, frango, pimenta e molhos, mas ela também pode não ter recheios. </h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Tamales Empanadas y Más (CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$10,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$7,00</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$10,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-quesadillas.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Quesadillas</h3>
             <h4 class="description-culinaria-card">A quesadilla é uma tortilla dobrada ao meio, recheada com algum queijo derretido.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: El Cardenal (Centro Histórico, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$38,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$26,60</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$38,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-enchiladasSuizas.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Enchiladas suizas</h3>
             <h4 class="description-culinaria-card">São tortillas recheadas com frango desfiado junto com molho de tomate verde picante. Após serem assadas no forno, elas são cobertas com queijo derretido, o que complementa seu sabor e textura.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Balcón del Zócalo (Centro Histórico, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$66,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$46,20</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$66,00</h3>
+            }
         </a>
         <a class="card-culinaria">
             <img src="~/img/culinaria-arroz.webp" class="card-culinaria-img">
             <h3 class="title-culinaria-card">Arroz à mexicana</h3>
             <h4 class="description-culinaria-card">Uma combinação de arroz cozido junto com tomates, cebolas, pimentões e temperos tradicionais do país, como coentro, orégano mexicano e cominha.</h4>
             <h4 class="endereco-culinaria-card">Restaurante/Rede: Fonda Margarita (Tlacoquemecatl, CDMX)</h4>
-            <section class="precos-d">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <section class="precos-d">
                 <h3 class="preco-culinaria-card-d">R$22,00</h3>
                 <h3 class="preco-culinaria-off">30% OFF</h3>
             </section>
             <h3 class="preco-culinaria-card">R$15,40</h3>
+            }
+            else
+            {
+                <section class="precos-d">
+                    <h3 class="preco-culinaria-card-d"></h3>
+                    <h3 class="preco-culinaria-off"></h3>
+                </section>
+                <h3 class="preco-culinaria-card">R$22,00</h3>
+            }
         </a>
     </section>
 </section>

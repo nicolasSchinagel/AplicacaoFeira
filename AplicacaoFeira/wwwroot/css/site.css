@@ -85,10 +85,34 @@ nav {
     font-size: 22px;
     text-decoration: none;
 }
-
-    .login:hover {
-        text-decoration: none;
-    }
+.login-user{
+    font-size: 12px;
+    text-decoration: none;
+}
+.login:hover {
+    text-decoration: none;
+}
+.login-exit{
+    color: red;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.login-exit:hover{
+    text-decoration: underline;
+    color: white;
+}
+.login-user, .login-exit{
+    text-align: center;
+}
+.half-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
 
 .cursoring {
     cursor: pointer;
@@ -873,6 +897,10 @@ footer {
 .label-input-1 {
     font-size: 25px;
     color: #111111;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .input-box {
@@ -1026,6 +1054,14 @@ footer {
     color: rgb(3, 3, 139);
     font-weight: bolder;
 }
+.valid{
+    font-size: 14px;
+}
+.parte-label{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
 
 /*AGORA FAREI A TELA DA LISTA DE CULINÁRIAS , NÍCOLAS*/
 .parte-culinaria {
@@ -1139,6 +1175,186 @@ footer {
 .preco-culinaria-off {
     color: red;
 }
+
+
+
+
+
+
+.item-menu-geral {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagem-menu-item {
+    width: 45%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+}
+
+.menu-item-textos {
+    width: 52%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title-menu-item {
+    width: 100%;
+    font-size: 45px;
+    height: 100px;
+}
+
+.description-menu-item {
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+    height: 140px;
+}
+
+.menu-item-promotions {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resgate-cupon {
+    width: 60%;
+    height: 130px;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.resgate-cupon-2 {
+    width: 60%;
+    height: 130px;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 2s;
+    cursor: pointer;
+}
+
+    .resgate-cupon-2:hover {
+        background-color: rgb(1, 65, 1);
+    }
+
+.resgate-cupon-icon {
+    width: auto;
+    object-fit: fill;
+}
+
+.text-resgate-cupon {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.resgate-cupon-title {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.resgate-cupon-bloco-1 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.resgate-cupon-bloco-2 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aviso-resgate-cupon {
+    font-size: 15px;
+}
+
+.preco-og-resgate-cupon {
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.preco-resgate-cupon {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.preco-item-menu-geral {
+    font-size: 45px;
+    color: black;
+    margin-right: 25px;
+}
+
+.item-menu-caracters {
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+
+.image-caracters {
+    width: 45%;
+}
+
+.conselhos-item-menu {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.parceria-menu-1, .parceria-menu-2 {
+    color: rgb(2, 83, 75);
+}
+
+.parceria-menu-1 {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.parceria-menu-2 {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+
 
 
 

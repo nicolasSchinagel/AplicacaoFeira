@@ -1,0 +1,59 @@
+﻿@inject AplicacaoFeira.Libraries.Login.LoginCliente _loginCliente
+<div class="shadow-header"></div>
+<div class="item-menu-geral">
+    <img src="~/img/culinaria-pozole.webp" class="imagem-menu-item">
+    <section class="menu-item-textos">
+        <h2 class="title-menu-item">Nome da Culinária: Pozole</h2>
+        <h3 class="description-menu-item">É parecido com uma receita de sopa, que tem como base o cacahuacintle ou cacahuazintle, um tipo de milho que possui grãos bem grandes e que são cozidos por várias horas. Ele é um dos pratos mais famosos do méxico.</h3>
+        <div class="menu-item-promotions">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <div class="resgate-cupon-2">
+                    <img src="~/img/unlocked.png" class="resgate-cupon-icon">
+                    <div class="text-resgate-cupon">
+                        <h3 class="resgate-cupon-title">Resgatar cupom </h3>
+                        <div class="resgate-cupon-bloco-1">
+                            <h4 class="aviso-resgate-cupon">Somente para clientes</h4>
+                            <h4 class="preco-og-resgate-cupon">R$42,20</h4>
+                        </div>
+                        <div class="resgate-cupon-bloco-2">
+                            <h4 class="aviso-resgate-cupon">Preço desce para:</h4>
+                            <h3 class="preco-resgate-cupon">R$29,40</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <h2 class="preco-item-menu-geral">R$42,20</h2>
+            }
+            else
+            {
+                <div class="resgate-cupon">
+                <img src="~/img/locked.png" class="resgate-cupon-icon">
+                <div class="text-resgate-cupon">
+                    <h3 class="resgate-cupon-title">Resgatar cupom </h3>
+                    <div class="resgate-cupon-bloco-1">
+                        <h4 class="aviso-resgate-cupon">Somente para clientes</h4>
+                        <h4 class="preco-og-resgate-cupon">R$42,20</h4>
+                    </div>
+                    <div class="resgate-cupon-bloco-2">
+                        <h4 class="aviso-resgate-cupon">Preço desce para:</h4>
+                        <h3 class="preco-resgate-cupon">R$29,40</h3>
+                    </div>
+
+                </div>
+            </div>
+            <h2 class="preco-item-menu-geral">R$42,20</h2>
+            }
+        </div>
+    </section>
+</div>
+<div class="item-menu-caracters">
+    <div class="image-caracters">
+        <h4 class="parceria-menu-1">Parceria encontra em: Zona Rosa, CDMX</h4>
+        <h3 class="parceria-menu-2">La Casa de Toño</h3>
+    </div>
+    <div class="conselhos-item-menu">
+        <h4 class="conselho-2">Não consegue resgatar o cupom? <a class="opcao-cadastro" asp-action="Login" asp-controller="Cliente">faça login</a>.</h4>
+        <h4 class="ingredientes-itens">Ingredientes: Milho cacahuazintle, carne de porco ou frango, caldo de pimentas, rabanete e alface.</h4>
+    </div>
+</div>

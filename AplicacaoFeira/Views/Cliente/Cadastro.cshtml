@@ -1,37 +1,50 @@
-﻿<div class="fundo-form">
+﻿@model AplicacaoFeira.Models.Cliente
+<div class="fundo-form">
         <img src="~/img/background-register.webp" class="background-registro">
         <section class="blanket-registro">
             <h1 class="title-cadastro">CADASTRO DO CLIENTE</h1>
-            <form class="formulario-emSi">
+            <form class="formulario-emSi" method="post">
              <div class="input-2-geral">
-                <label class="label-input-1">Nome <span class="obrigatorio">*</span></label>
+                <div class="parte-label">
+                    <label class="label-input-1"><label asp-for="Nome"></label> <span class="obrigatorio">*</span></label>
+                    <span class="obrigatorio valid" asp-validation-for="Nome"></span>
+                </div>
                 <div class="input-box">
                     <img src="~/img/name-image.webp" class="icon-input-1">
-                    <input type="text" placeholder="Digite seu nome" class="input-login-1">
+                    <input type="text" placeholder="Digite seu nome" asp-for="Nome" class="input-login-1">
                 </div>
              </div>
              <div class="input-2-geral">
-                <label class="label-input-1">Email <span class="obrigatorio">*</span></label>
+                <div class="parte-label">
+                    <label class="label-input-1"><label asp-for="Email"></label> <span class="obrigatorio">*</span></label>
+                    <span class="obrigatorio valid" asp-validation-for="Email"></span>
+                </div>
                 <div class="input-box">
                     <img src="~/img/Email-image.webp" class="icon-input-1">
-                    <input type="email" placeholder="senhor@gmail.com" class="input-login-1">
+                    <input type="email" placeholder="senhor@gmail.com" asp-for="Email" class="input-login-1">
                 </div>
              </div>
              <div class="input-2-geral">
-                <label class="label-input-1">Senha <span class="obrigatorio">*</span></label>
+                <div class="parte-label">
+                    <label class="label-input-1"><label asp-for="Senha"></label> <span class="obrigatorio">*</span></label>
+                    <span class="obrigatorio valid" asp-validation-for="Senha"></span>
+                </div>
                 <div class="input-box">
                     <img src="~/img/Code-image.webp" class="icon-input-1">
-                    <input type="password" placeholder="Senha de pelo menos 5 dígitos" class="input-login-1">
+                    <input type="password" placeholder="Senha de pelo menos 5 dígitos" asp-for="Senha" class="input-login-1">
                 </div>
              </div>
              <div class="input-2-geral">
-                <label class="label-input-1">Confirmação da senha <span class="obrigatorio">*</span></label>
+                <div class="parte-label">
+                <label class="label-input-1"><label asp-for="ConfirmacaoSenha"></label> <span class="obrigatorio">*</span></label> 
+                <span class="obrigatorio valid" asp-validation-for="ConfirmacaoSenha"></span>
+                </div>
                 <div class="input-box">
                     <img src="~/img/confirm-image.webp" class="icon-input-1">
-                    <input type="password" placeholder="Digite a senha novamente" class="input-login-1">
+                    <input type="password" placeholder="Digite a senha novamente" asp-for="ConfirmacaoSenha" class="input-login-1">
                 </div>
              </div>
-             <button class="button-login-2">
+             <button class="button-login-2" type="submit">
                 CADASTRAR
              </button>
            </form>

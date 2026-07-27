@@ -40,5 +40,26 @@ namespace AplicacaoFeira.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Item_Pozole()
+        {
+            return View();
+        }
+        public IActionResult Item_Chilorio()
+        {
+            return View();
+        }
+        public IActionResult Item_Machaca()
+        {
+            return View();
+        }
+        public IActionResult Item_Guacanachos()
+        {
+            return View();
+        }
+        public IActionResult Item_Tortilha()
+        {
+            return View();
+        }
     }
 }

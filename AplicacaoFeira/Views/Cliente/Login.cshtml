@@ -1,24 +1,25 @@
-﻿<div class="shadow-header"></div>
+﻿@model AplicacaoFeira.Models.Cliente
+<div class="shadow-header"></div>
 <section class="login-geral">
     <section class="formulario-login">
         <h2 class="title-login">Faça seu login e vire um cliente <span class="logo-green">MEXICANO!</span></h2>
-        <form class="formulario-emSi">
+        <form class="formulario-emSi" method="post">
             <div class="input-1-geral">
-                <label class="label-input-1">Email</label>
+                <label class="label-input-1" asp-for="Email"></label> <span class="obrigatorio valid" asp-validation-for="Email"></span>
                 <div class="input-box">
                     <img src="~/img/Email-image.webp" class="icon-input-1">
-                    <input type="email" placeholder="senhor@gmail.com" class="input-login-1">
+                    <input type="email" placeholder="senhor@gmail.com" asp-for="Email" class="input-login-1"/>
                 </div>
             </div>
             <div class="input-1-geral">
-                <label class="label-input-1">Senha</label>
+                <label class="label-input-1" asp-for="Senha"></label> <span class="obrigatorio valid" asp-validation-for="Senha"></span>
                 <div class="input-box">
                     <img src="~/img/Code-image.webp" class="icon-input-1">
-                    <input type="password" placeholder="Senha de pelo menos 5 dígitos" class="input-login-1">
+                    <input type="password" placeholder="Senha de pelo menos 5 dígitos" asp-for="Senha" class="input-login-1"/>
                 </div>
             </div>
             <h4 class="conselho">Não tem conta? <span class="opcao-cadastro"><a asp-controller="Cliente" asp-action="Cadastro">cadastre-se</a></span></h4>
-            <button class="button-login">
+            <button class="button-login" type="submit">
                 <img src="~/img/enter-image.webp" class="icon-button-login">
                 ENTRAR
             </button>

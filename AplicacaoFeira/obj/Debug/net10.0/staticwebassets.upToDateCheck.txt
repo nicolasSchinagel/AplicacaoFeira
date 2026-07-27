@@ -1,4 +1,3 @@
-wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\arrow-left.png
 wwwroot\img\arrow-right.png
@@ -54,6 +53,7 @@ wwwroot\img\history9.webp
 wwwroot\img\image-back2.webp
 wwwroot\img\image-login1.webp
 wwwroot\img\Katy_Jurado.jpg
+wwwroot\img\locked.png
 wwwroot\img\Mario_Moreno_Cantinflas.jpg
 wwwroot\img\mexico-flag1.webp
 wwwroot\img\mexico-flag2.webp
@@ -64,6 +64,7 @@ wwwroot\img\roberto-gomez-bolaños.jpg
 wwwroot\img\Salma_Hayek.jpg
 wwwroot\img\taco.png
 wwwroot\img\Thalía_Primera.jpg
+wwwroot\img\unlocked.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -125,6 +126,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\site.css
 C:\Users\lizsc\OneDrive\Pictures\Nic\planoAustletss\feiraCultural3\AplicacaoFeira\AplicacaoFeira\wwwroot\favicon.ico
 C:\Users\lizsc\OneDrive\Pictures\Nic\planoAustletss\feiraCultural3\AplicacaoFeira\AplicacaoFeira\wwwroot\js\site.js
 C:\Users\lizsc\OneDrive\Pictures\Nic\planoAustletss\feiraCultural3\AplicacaoFeira\AplicacaoFeira\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

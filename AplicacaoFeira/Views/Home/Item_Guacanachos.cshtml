@@ -1,0 +1,59 @@
+﻿@inject AplicacaoFeira.Libraries.Login.LoginCliente _loginCliente
+<div class="shadow-header"></div>
+<div class="item-menu-geral">
+    <img src="~/img/culinaria-guacanachos.webp" class="imagem-menu-item">
+    <section class="menu-item-textos">
+        <h2 class="title-menu-item">Nome da Culinária: Guacamole com nachos</h2>
+        <h3 class="description-menu-item">Tortillas cortadas em triângulos com o famoso molho feito com abacate, tomate, cebola e outros ingredientes.</h3>
+        <div class="menu-item-promotions">
+            @if (_loginCliente.GetCliente() != null)
+            {
+                <div class="resgate-cupon-2">
+                    <img src="~/img/unlocked.png" class="resgate-cupon-icon">
+                    <div class="text-resgate-cupon">
+                        <h3 class="resgate-cupon-title">Resgatar cupom </h3>
+                        <div class="resgate-cupon-bloco-1">
+                            <h4 class="aviso-resgate-cupon">Somente para clientes</h4>
+                            <h4 class="preco-og-resgate-cupon">R$60,00</h4>
+                        </div>
+                        <div class="resgate-cupon-bloco-2">
+                            <h4 class="aviso-resgate-cupon">Preço desce para:</h4>
+                            <h3 class="preco-resgate-cupon">R$42,00</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <h2 class="preco-item-menu-geral">R$60,00</h2>
+            }
+            else
+            {
+                <div class="resgate-cupon">
+                <img src="~/img/locked.png" class="resgate-cupon-icon">
+                <div class="text-resgate-cupon">
+                    <h3 class="resgate-cupon-title">Resgatar cupom </h3>
+                    <div class="resgate-cupon-bloco-1">
+                        <h4 class="aviso-resgate-cupon">Somente para clientes</h4>
+                        <h4 class="preco-og-resgate-cupon">R$60,00</h4>
+                    </div>
+                    <div class="resgate-cupon-bloco-2">
+                        <h4 class="aviso-resgate-cupon">Preço desce para:</h4>
+                        <h3 class="preco-resgate-cupon">R$42,00</h3>
+                    </div>
+
+                </div>
+            </div>
+            <h2 class="preco-item-menu-geral">R$60,00</h2>
+            }
+        </div>
+    </section>
+</div>
+<div class="item-menu-caracters">
+    <div class="image-caracters">
+        <h4 class="parceria-menu-1">Parceria encontra em: Polanco, CDMX</h4>
+        <h3 class="parceria-menu-2">Porfirio's Masaryk  </h3>
+    </div>
+    <div class="conselhos-item-menu">
+        <h4 class="conselho-2">Não consegue resgatar o cupom? <a class="opcao-cadastro" asp-action="Login" asp-controller="Cliente">faça login</a>.</h4>
+        <h4 class="ingredientes-itens">Ingredientes: Abacate, tomate, cebola, coentro, pimenta serrana, suco de limão e sal para guacamole. Tortilhas de milho fritas (totopos), queijo derretido, feijão refrito e jalapeño para nachos.</h4>
+    </div>
+</div>

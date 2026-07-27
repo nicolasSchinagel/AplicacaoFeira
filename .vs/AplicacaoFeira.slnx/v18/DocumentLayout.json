@@ -7,44 +7,56 @@
       "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\cliente\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\cliente\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\cliente\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\cliente\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\culinaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\home\\culinaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\item_chilorio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\home\\item_chilorio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\item_pozole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\home\\item_pozole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\cliente\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\cliente\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\repository\\contract\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\repository\\contract\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\libraries\\sessao\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\libraries\\sessao\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\libraries\\login\\logincliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\libraries\\login\\logincliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\cultura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\home\\cultura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\geografia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\home\\geografia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\economia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|solutionrelative:aplicacaofeira\\views\\home\\economia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD715351-3D45-52F9-6DCC-DFAD37C00F90}|AplicacaoFeira\\AplicacaoFeira.csproj|c:\\users\\lizsc\\onedrive\\pictures\\nic\\planoaustletss\\feiracultural3\\aplicacaofeira\\aplicacaofeira\\views\\home\\celebridades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -76,7 +88,7 @@
               "RelativeDocumentMoniker": "AplicacaoFeira\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\wwwroot\\css\\site.css",
               "RelativeToolTip": "AplicacaoFeira\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAJIDAAAAAAAAAAAAAJwDAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcFAAAAAAAAAAAAAEIFAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-07-25T18:48:25.849Z",
               "IsPinned": true,
@@ -84,79 +96,151 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cadastro.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Cliente\\Cadastro.cshtml",
-              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Cliente\\Cadastro.cshtml",
-              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Cliente\\Cadastro.cshtml",
-              "RelativeToolTip": "AplicacaoFeira\\Views\\Cliente\\Cadastro.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Item_Chilorio.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Item_Chilorio.cshtml",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Item_Chilorio.cshtml",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Item_Chilorio.cshtml",
+              "RelativeToolTip": "AplicacaoFeira\\Views\\Home\\Item_Chilorio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-25T23:01:56.518Z"
+              "WhenOpened": "2026-07-26T19:38:46.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Culinaria.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
+              "RelativeToolTip": "AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAAMMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-25T21:46:47.098Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
-              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
-              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
-              "RelativeToolTip": "AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-25T23:00:56.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "AplicacaoFeira\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "AplicacaoFeira\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T22:59:03.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Economia.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Economia.cshtml",
-              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Economia.cshtml",
-              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Economia.cshtml",
-              "RelativeToolTip": "AplicacaoFeira\\Views\\Home\\Economia.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowCQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-25T21:56:06.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AplicacaoFeira\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AplicacaoFeira\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-25T22:00:50.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Item_Pozole.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Item_Pozole.cshtml",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Item_Pozole.cshtml",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Item_Pozole.cshtml",
+              "RelativeToolTip": "AplicacaoFeira\\Views\\Home\\Item_Pozole.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-26T17:02:18.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "AplicacaoFeira\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-25T18:47:28.926Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Repository\\Contract\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Repository\\Contract\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Repository\\Contract\\IClienteRepository.cs",
+              "RelativeToolTip": "AplicacaoFeira\\Repository\\Contract\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T11:37:07.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sessao.cs",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Libraries\\Sessao\\Sessao.cs",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Libraries\\Sessao\\Sessao.cs",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Libraries\\Sessao\\Sessao.cs",
+              "RelativeToolTip": "AplicacaoFeira\\Libraries\\Sessao\\Sessao.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T12:16:07.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
+              "RelativeToolTip": "AplicacaoFeira\\Views\\Cliente\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-25T23:00:56.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Models\\Cliente.cs",
+              "RelativeToolTip": "AplicacaoFeira\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T11:22:29.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginCliente.cs",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Libraries\\Login\\LoginCliente.cs",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Libraries\\Login\\LoginCliente.cs",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Libraries\\Login\\LoginCliente.cs",
+              "RelativeToolTip": "AplicacaoFeira\\Libraries\\Login\\LoginCliente.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T12:17:28.839Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "AplicacaoFeira\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T11:40:34.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\appsettings.json",
+              "RelativeDocumentMoniker": "AplicacaoFeira\\appsettings.json",
+              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\appsettings.json",
+              "RelativeToolTip": "AplicacaoFeira\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-26T11:18:31.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Celebridades.cshtml",
               "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Celebridades.cshtml",
               "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Celebridades.cshtml",
@@ -168,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Cultura.cshtml",
               "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Cultura.cshtml",
               "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Cultura.cshtml",
@@ -180,43 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Culinaria.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
-              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
-              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
-              "RelativeToolTip": "AplicacaoFeira\\Views\\Home\\Culinaria.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-25T21:46:47.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Geografia.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Geografia.cshtml",
-              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Geografia.cshtml",
-              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Geografia.cshtml",
-              "RelativeToolTip": "AplicacaoFeira\\Views\\Home\\Geografia.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowCQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-25T22:13:15.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AplicacaoFeira\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-25T19:32:34.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\_ViewImports.cshtml",
@@ -228,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\lizsc\\OneDrive\\Pictures\\Nic\\planoAustletss\\feiraCultural3\\AplicacaoFeira\\AplicacaoFeira\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "AplicacaoFeira\\Views\\_ViewStart.cshtml",
