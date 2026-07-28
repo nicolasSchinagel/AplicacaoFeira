@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AplicacaoFeira")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44ced2e5241d7d90e5106fab5fbd207871345b74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d3942c83892c02cd32a5a12b3fad61966579680")]
 [assembly: System.Reflection.AssemblyProductAttribute("AplicacaoFeira")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AplicacaoFeira")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

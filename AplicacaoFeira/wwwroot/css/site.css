@@ -233,6 +233,8 @@ nav {
     align-items: center;
     gap: 15px;
     cursor: pointer;
+    color: rgb(22,255,22);
+    text-decoration: none;
 }
 .banner-button2 {
     position: absolute;
@@ -248,6 +250,25 @@ nav {
     align-items: center;
     gap: 15px;
     cursor: pointer;
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+}
+.banner-button3 {
+    position: absolute;
+    left: 9%;
+    top: 75%;
+    width: 235px;
+    height: 52px;
+    padding: 18px;
+    border-radius: 30px;
+    background: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: purple;
 }
 
 .logo-banner-button {
@@ -266,7 +287,12 @@ nav {
     font-weight: 600;
     color: rgb(255,255,0);
 }
-
+.text-banner-button3 {
+    font-family: 'Arial',sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: purple;
+}
 
 
 .camp-1 {
@@ -735,7 +761,7 @@ nav {
 }
 
 .image-20 {
-    width: 85%;
+    width: 70%;
     height: auto;
     object-fit: cover;
     border-radius: 15px;
@@ -1352,6 +1378,632 @@ footer {
     font-size: 25px;
     width: 100%;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.times-divisao {
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.title-times-divisao {
+    width: 100%;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.times-lista {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    height: auto;
+    gap: 25px;
+}
+
+.parte-time {
+    display: flex;
+    width: 200px;
+    height: 220px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagem-time {
+    width: auto;
+    height: 75%;
+    object-fit: contain;
+}
+
+.nome-time {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.selecao-fut-div {
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-family: 'Inter', sans-serif
+}
+
+.selecao-imagem {
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+}
+
+.selecao-fut-part {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.texts-fut {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 30px;
+}
+
+.title-fut {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.selecao-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.selecao-sobre {
+    width: 100%;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.baseball-div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 30px;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.title-cultura-1 {
+    width: 100%;
+    color: rgba(8, 95, 86, 0.718);
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.baseball-parts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.baseball-texts {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
+}
+
+.baseball-imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    height: auto;
+    margin-right: 70px;
+}
+
+.baseball-imagem {
+    height: auto;
+    width: 100%;
+}
+
+.baseball-sobre {
+    width: 100%;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.sports-div {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.sport-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sport-imagem {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+}
+
+.texts-sport {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.phrase-sport {
+    font-size: 26px;
+    text-align: justify;
+}
+
+.etnia-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.etnia-div-title {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+.etnia-dados {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.etnia-dado-imagem {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+}
+
+.etnia-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title-cultura-2 {
+    font-size: 42px;
+    width: 100%;
+    text-align: center;
+    color: rgb(83, 0, 128);
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.etnia-bloco {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.etnia-texts {
+    width: 55%;
+}
+
+.etnia-text {
+    font-size: 28px;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+}
+
+.etnia-imagem {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+
+.dance-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.dance-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 50px;
+    height: auto;
+}
+
+.dance-bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.dance-principal {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-cultura-3 {
+    color: red;
+    width: 100%;
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.dance-imagem {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.dance-texts {
+    width: 65%;
+    height: auto;
+}
+
+.dance-text {
+    font-size: 34px;
+    color: black;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.music-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    padding: 60px;
+}
+
+.title-music-part {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.music-div-title {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+.icon-music-page {
+    height: 75px;
+    width: auto;
+    object-fit: contain;
+}
+
+.texts-music-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.music-text {
+    font-size: 28px;
+    color: black;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.musisc-topic {
+    font-size: 28px;
+    color: black;
+    font-weight: bolder;
+}
+
+.blocos-music {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 300px;
+    gap: 20px;
+}
+
+.title-bloco-music {
+    color: green;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.imagem-music {
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+}
+
+.music-play-part {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.icon-play {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+
+.line-general {
+    background-color: white;
+    border-radius: 50px;
+    height: 20%;
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    cursor: pointer;
+}
+
+.line-played {
+    background-color: rgb(223, 201, 6);
+    height: 100%;
+    width: 0%;
+    border-radius: 50px;
+}
+
+.legend-texts {
+    width: 45%;
+    height: auto;
+}
+
+.legend-text {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.title-cultura-4 {
+    color: rgb(244, 205, 10);
+    font-weight: bolder;
+}
+
+.lenda-imagem {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+.cards-people-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    gap: 10px;
+    padding: 30px;
+}
+
+.title-people {
+    width: 100%;
+    text-align: center;
+    color: rgb(4, 4, 82);
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.subtitle-people {
+    width: 100%;
+    text-align: center;
+    color: rgb(35, 35, 132);
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.lista-cards-people {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: auto;
+}
+
+.card-person {
+    width: 330px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.3);
+}
+
+.image-person-div {
+    height: 42%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08005d;
+}
+
+.person-image {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.content-person-div {
+    width: 100%;
+    height: 58%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+.name-person {
+    width: 90%;
+    height: 110px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.cargo-person {
+    width: 85%;
+    height: auto;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: gray;
+}
+
+.lista-programacao {
+    width: 95%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.item-programacao {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.linkdin-button {
+    background-color: #08005d;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    text-decoration: none;
+    color: white;
+    height: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .linkdin-button:hover {
+        background-color: #0645ad;
+    }
+
+.linkdin-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.linkdin-title {
+    text-decoration: none;
+}
+
+.linkedin-logo {
+    height: 80%;
+    width: auto;
+    object-fit: contain;
+}
+
+.ver-membros{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder
+}
+.ver-membros:hover{
+    color: blue;
+    text-decoration: underline;
 }
 
 
